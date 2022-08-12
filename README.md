@@ -1,6 +1,12 @@
 # Design WhatsApp
 
+## Functional requirements
+Text messaging (1 to 1)
+Sent, Delivered and Read reciept
 
-Sent
-Delivered
-Read
+
+## Non functional requirements
+Highly available
+Low latency
+
+
