@@ -14,5 +14,6 @@
 !["Whatsapp"](whatsapp.PNG?raw=true)
 
 
-
+## Questions :
+1. Should users periodically poll the chat server and check for any new messages
 
