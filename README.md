@@ -10,6 +10,7 @@
 1. Highly available
 2. Low latency
 
+**Billions of users use Whatsapp daily and Whatsapp delivers billions of messages everyday.**
 
 !["Whatsapp"](whatsapp.PNG?raw=true)
 
