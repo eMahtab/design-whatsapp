@@ -19,6 +19,9 @@ The only time a message is stored on WhatsApp’s servers is if the recipient ca
 
 **Once Whatsapp recieves a delivery acknowledgement for a message, the message gets deleted from Whatsapp's database.**
 
+**Sent, Delivered and Read Notification :**
+For each message, there can be up to three callbacks from the WhatsApp's chat servers. These callbacks are sent, delivered and read notifications.
+
 !["Whatsapp"](whatsapp.PNG?raw=true)
 
 
