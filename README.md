@@ -21,6 +21,7 @@ The only time a message is stored on WhatsApp’s servers is if the recipient ca
 
 **Sent, Delivered and Read Notification :**
 For each message, there can be up to three callbacks from the WhatsApp's chat servers. These callbacks are sent, delivered and read notifications.
+Suppose User1 sends a message to User2 and immediately gets offline, now in this case , the WhatsApp chat server won't be able to send the above notification to User1, when User2 recieves the message or reads the message. So we need to store this data in some persistent storage at least for time till the notifications are not sent to User1 successfully, and once the notifications are sent to User1 successfully and chat server gets the acknowledgement, we can delete the data from persistent storage.
 
 !["Whatsapp"](whatsapp.PNG?raw=true)
 
