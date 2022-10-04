@@ -28,6 +28,9 @@ Suppose User1 sends a message to User2 and immediately gets offline, now in this
 Each chat server has around millions of users connected through Websocket connection. Also both sender and recipient might not be connected to the same chat server.
 So there should be some central location which can tell, to which chat server , a particular user is connected to.
 
+# Offline User coming Online :
+Suppose if User1 was offline, comes online, the chat server to which User1 gets connected, will call the Message Service to check if there are any new messages which needs to be sent to User1. If there are messages to be sent to User1, chat server will send those messages to User1. 
+
 !["Whatsapp"](whatsapp.PNG?raw=true)
 
 
