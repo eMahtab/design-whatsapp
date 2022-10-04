@@ -17,6 +17,8 @@ WhatsApp does not store your chat history on its servers. When you send a messag
 
 The only time a message is stored on WhatsApp’s servers is if the recipient cannot receive it (maybe they’re offline or don’t have a WhatsApp account). In cases like those, the message(s) you sent are automatically deleted off of WhatsApp’s server in 30 days’ time. 
 
+**Once Whatsapp recieves a delivery acknowledgement for a message, the message gets deleted from Whatsapp's database.**
+
 !["Whatsapp"](whatsapp.PNG?raw=true)
 
 
