@@ -14,8 +14,7 @@
 
 # Approach :
 
-1. **Polling** : Client makes a request at a regular interval specified asking if there are any new messages. Not all the time, chat server will have the new messages for the user, so this will result in lot of unnecessary calls, also it will drain the mobile battery and will waste the server resources by making lot of HTTP calls to the server. 
-
+1. **Polling** : Client makes a request at a regular interval specified asking if there are any new messages. Not all the time, chat server will have the new messages for the user, so this will result in lot of unnecessary calls, also it will drain the mobile battery and will waste the server resources by making lot of HTTP calls to the server. Also it will not result in real time message delivery, as the new messages will only be delivered when the user makes the HTTP call for that.
 2. **Long Polling** : 
 
 
