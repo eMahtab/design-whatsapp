@@ -12,6 +12,13 @@
 
 # Billions of users use Whatsapp daily and Whatsapp delivers billions of messages everyday.
 
+# Approach :
+
+1. **Polling** : Client makes a request at a regular interval specified asking if there are any new messages. Not all the time, chat server will have the new messages for the user, so this will result in lot of unnecessary calls, also it will drain the mobile battery and will waste the server resources by making lot of HTTP calls to the server. 
+
+2. **Long Polling** : 
+
+
 ## Where does Whatsapp stores the messages :
 WhatsApp does not store your chat history on its servers. When you send a message, WhatsApp **only keeps that message on its servers until the recipient receives the message or for a max of 30 days**. Even then, the end-to-end encryption prevents WhatsApp from reading your message. 
 
