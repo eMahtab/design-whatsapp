@@ -28,6 +28,9 @@ Suppose User1 sends a message to User2 and immediately gets offline, now in this
 Each chat server has around millions of users connected through Websocket connection. Also both sender and recipient might not be connected to the same chat server.
 So there should be some central location which can tell, to which chat server , a particular user is connected to.
 
+# Chat Server Local Cache :
+Each chat server will have local cache, e.g. if chat server queries the central connection repository first time, we can cache it in local cache (with very short time to live) at Chat server. By doing this, for a conversation a Chat server will not have to go to Central connection repository each time.
+
 # Offline User coming Online :
 Suppose if User1 was offline, comes online, the chat server to which User1 gets connected, will call the Message Service to check if there are any new messages which needs to be sent to User1. If there are messages to be sent to User1, chat server will send those messages to User1. 
 
