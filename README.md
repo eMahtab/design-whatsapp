@@ -12,7 +12,7 @@
 
 # Billions of users use Whatsapp daily and Whatsapp delivers billions of messages everyday.
 
-!["Whatsapp "](whatsapp.PNG?raw=true)
+!["Whatsapp"](design.PNG?raw=true)
 
 # Approach :
 
