@@ -59,3 +59,5 @@ When you forward media, documents, locations or contacts, you don't have to uplo
 1. https://www.youtube.com/watch?v=RjQjbJ2UJDg
 
 2. https://www.youtube.com/watch?v=uzeJb7ZjoQ4
+
+3. https://blog.codechef.com/2021/12/03/how-does-whatsapp-queue-your-messages/
