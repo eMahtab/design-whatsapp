@@ -15,7 +15,10 @@
 # Approach :
 
 1. **Polling** : Client makes a request at a regular interval specified asking if there are any new messages. Not all the time, chat server will have the new messages for the user, so this will result in lot of unnecessary calls, also it will drain the mobile battery and will waste the server resources by making lot of HTTP calls to the server. Also it will not result in real time message delivery, as the new messages will only be delivered when the user makes the HTTP call for that.
-2. **Long Polling** : 
+
+2. **Long Polling** : The server doesn't close the connection immediately, but keeps the connection opened for sometime, and if during this time user have any new messages, server will send those messages and close the connection.
+
+3. **WebSockets** : A WebSocket is a persistent connection between a client and a server. WebSockets provide a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP/IP socket connection. At its core, the WebSocket protocol facilitates message passing between a client and server.
 
 
 ## Where does Whatsapp stores the messages :
