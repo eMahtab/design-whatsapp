@@ -12,6 +12,8 @@
 
 # Billions of users use Whatsapp daily and Whatsapp delivers billions of messages everyday.
 
+!["Whatsapp"](whatsapp.PNG?raw=true)
+
 # Approach :
 
 1. **Polling** : Client makes a request at a regular interval specified asking if there are any new messages. Not all the time, chat server will have the new messages for the user, so this will result in lot of unnecessary calls, also it will drain the mobile battery and will waste the server resources by making lot of HTTP calls to the server. Also it will not result in real time message delivery, as the new messages will only be delivered when the user makes the HTTP call for that.
@@ -45,7 +47,6 @@ Each chat server will have local cache, e.g. if chat server queries the central 
 # Offline User coming Online :
 Suppose if User1 was offline, comes online, the chat server to which User1 gets connected, will call the Message Service to check if there are any new messages which needs to be sent to User1. If there are messages to be sent to User1, chat server will send those messages to User1. 
 
-!["Whatsapp"](whatsapp.PNG?raw=true)
 
 # Forward Media :
 When you forward media, documents, locations or contacts, you don't have to upload them again. Any forwarded messages that weren't originally sent by you will display a "Forwarded" label.
