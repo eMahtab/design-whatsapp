@@ -1,4 +1,4 @@
-# Design WhatsApp/Facebook Messanger/Signal
+# Design WhatsApp/Facebook Messanger/Telegram
 
 ## Functional requirements
 1. Text messaging (1 to 1)
