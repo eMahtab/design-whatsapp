@@ -22,6 +22,8 @@
 
 3. **WebSockets** : A WebSocket is a persistent connection between a client and a server. WebSockets provide a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP/IP socket connection. At its core, the WebSocket protocol facilitates message passing between a client and server. WebSockets are definitely the preferred choice for Real Time messaging app like WhatsApp.
 
+# WhatsApp stores the messages locally on user's device, with guarantee that messages are encrypted both at rest and in transit. 
+
 
 ## Where does Whatsapp stores the messages :
 WhatsApp does not store your chat history on its servers. When you send a message, WhatsApp **only keeps that message on its servers until the recipient receives the message or for a max of 30 days**. Even then, the end-to-end encryption prevents WhatsApp from reading your message. 
