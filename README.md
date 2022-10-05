@@ -33,6 +33,9 @@ Suppose if User1 was offline, comes online, the chat server to which User1 gets 
 
 !["Whatsapp"](whatsapp.PNG?raw=true)
 
+# Forward Media :
+When you forward media, documents, locations or contacts, you don't have to upload them again. Any forwarded messages that weren't originally sent by you will display a "Forwarded" label.
+
 
 ## Questions :
 1. Should users periodically poll the chat server and check for any new messages
