@@ -18,7 +18,7 @@
 
 2. **Long Polling** : The server doesn't close the connection immediately, but keeps the connection opened for sometime, and if during this time user have any new messages, server will send those messages and close the connection.
 
-3. **WebSockets** : A WebSocket is a persistent connection between a client and a server. WebSockets provide a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP/IP socket connection. At its core, the WebSocket protocol facilitates message passing between a client and server.
+3. **WebSockets** : A WebSocket is a persistent connection between a client and a server. WebSockets provide a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP/IP socket connection. At its core, the WebSocket protocol facilitates message passing between a client and server. WebSockets are definitely the preferred choice for Real Time messaging app like WhatsApp.
 
 
 ## Where does Whatsapp stores the messages :
